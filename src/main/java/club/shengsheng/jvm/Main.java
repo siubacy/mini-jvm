@@ -9,8 +9,8 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception {
-        Hotspot hotspot = new Hotspot("club.shengsheng.project.Main", 
-            List.of("/Users/gongxuanzhang/dev/github/a-project/target/classes"));
+        Hotspot hotspot = new Hotspot("club.shengsheng.code.Hello17",
+            List.of("/Users/gongxuanzhang/dev/github/mini-jvm/target/classes"));
         hotspot.start();
     }
 }
